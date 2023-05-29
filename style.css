@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.card{
+    display: flex;
+    height: 450px;
+    width: 650px;
+    margin: 175px 320px;
+    border-radius: 20px;
+    justify-content: space-between;
+    background-color: white;
+}
+.card-left{
+    width: 50%;
+    height: 100%;
+}
+
+.card-left img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+.card-right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.prices {
+    display: flex;
+    width: 238px;
+}
+.discounted-price {
+    align-self: flex-start;
+}
+.actual-price {
+    align-self: ;
+}
+.cart {
+    display: flex;
+    margin-bottom: 20px;
+    width: 238px;
+    justify-content: center;
+    gap: 10px;
+}
+p{
+    align-self: flex-start;
+}
+.top-text {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+}
+.middle-text {
+    font-family: Fraunces;
+    font-size: 32px ;
+    font-weight: 700;
+    width: 238px;
+}
+.bottom-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    flex-wrap: wrap;
+    width: 238px;
+}
