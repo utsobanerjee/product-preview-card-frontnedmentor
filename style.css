@@ -45,9 +45,7 @@
 .discounted-price {
     align-self: flex-start;
 }
-.actual-price {
-    align-self: ;
-}
+
 .cart {
     display: flex;
     margin-bottom: 20px;
